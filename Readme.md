@@ -1,6 +1,6 @@
-# LeetCode Solutions in Java
+# DSA Solutions in Java
 
-This repository contains my solutions to various Data Structures and Algorithms (DSA) problems from LeetCode, implemented in Java.
+This repository contains my solutions to various Data Structures and Algorithms (DSA) problems, implemented in Java.
 
 ## About
 
@@ -9,11 +9,10 @@ This repository serves as a collection of my solutions to LeetCode problems rela
 ## Technologies Used
 
 - Java
-- LeetCode Platform
 
 ## How to Use
 
 ### Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/leetcode-java-solutions.git
+   git clone https://github.com/your-username/DSA-With-Java.git
