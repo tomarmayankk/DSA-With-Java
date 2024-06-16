@@ -1,5 +1,5 @@
 package Basics;
-//there is an array of numbers containing the negative duplicates but there is a number with no duplicates find the number
+//there is an array of numbers containing the negative duplicates of each number but there is a number with no duplicates find the number
 public class Q3 {
     public static int FindUnique(int arr[]){
         int unique = 0;

@@ -15,4 +15,4 @@ This repository serves as a collection of my solutions to LeetCode problems rela
 ### Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/DSA-With-Java.git
+   git clone https://github.com/tomarmayankk/DSA-With-Java.git
