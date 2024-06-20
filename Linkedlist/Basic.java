@@ -7,6 +7,7 @@ class Node{
         this.next = null;
     }
 }
+//initalize a linked list class
 public class Basic {
     private Node head;
 
@@ -20,15 +21,35 @@ public class Basic {
             head = newNode;
         }
         else{
-            Node currrent = head;
-            while(currrent.next != null){
-                currrent = currrent.next;
+            Node current = head;
+            while(current.next != null){
+                current = current.next;
             }
-            currrent.next = newNode;
+            current.next = newNode;
         }
     }
+    //method to insert at the begining 
+    public void insertBegin(int data){
+        Node newNode = new Node(data);
+        newNode.next = head;
+        head = newNode;
+    }
     
-    public static void main(String[] args){
+    //program to display the linked list
+    public void display(){
+        Node current = head;
+        while(current != null){
+            System.out.print(current.data + "->");
+            current = current.next;
+        }
+    }
 
+
+    public static void main(String[] args){
+            Basic list = new Basic();
+            list.insert(22);
+            list.insert(24);
+            list.insert(23);
+            list.display();
     }
 }
