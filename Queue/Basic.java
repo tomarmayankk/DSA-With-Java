@@ -15,6 +15,10 @@ public class Basic {
         //remove element from the queue
         queue.remove();
         System.out.println(queue);
+        int head = queue.peek(); //to check the head of the queue
+        System.out.println("the head of the queue is " + head);
 
+        //to check the size of the queue
+        System.out.println("Size of the queue is: " + queue.size());
     }
 }
