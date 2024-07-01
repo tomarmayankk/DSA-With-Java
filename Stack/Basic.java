@@ -14,7 +14,7 @@ public class Basic {
         stack.pop();
         stack.pop();
         System.out.println(stack);
-
+        stack.peek(); //to view the top element of the stack
     }
 }
 
