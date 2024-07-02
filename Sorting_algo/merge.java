@@ -5,7 +5,7 @@ import java.util.Arrays;
 //java program to represent merge sort Using recursive approach
 public class merge {
     public static void main(String[] args){
-        int[] arr = { 5, 3, 4, 2, 1};
+        int[] arr = { 5, 3, 4, 2, 7};
         arr = mergeSort(arr);
        System.out.println(Arrays.toString(arr)); 
     }
@@ -30,7 +30,7 @@ public class merge {
         int k = 0;
 
         while (i< first.length && j <second.length) {
-            if(first[i] < second[j]){
+            if(first[i] <= second[j]){
                 mix[k] = first[i];
                 i++;
             }else{
@@ -46,7 +46,7 @@ public class merge {
             k++;
         }
         while (j < second.length){
-            mix[k] = second[i];
+            mix[k] = second[j];
             j++;
             k++;
         }
