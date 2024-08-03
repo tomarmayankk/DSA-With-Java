@@ -1,1 +1,2 @@
-# this is a test folder containing some problems in testing phase
+# Test Folder
+This folder is like a rough sheet of programming, where you can test multiple problems
