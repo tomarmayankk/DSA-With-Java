@@ -2,8 +2,10 @@ package Hashing.Questions;
 
 import java.util.Arrays;
 import java.util.HashMap;
+/*Leetcode - 1 (Easy)
+ *finding the elements whose sum returns equal to the target using a hashmap 
+*/
 
-//finding the elements whose sum returns equal to the target using a hashmap
 public class TwoSum {
     static int[] findEl(int[] arr, int target){
         HashMap<Integer, Integer> hp = new HashMap<>();
