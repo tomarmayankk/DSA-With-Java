@@ -13,7 +13,7 @@ public class TwoSum {
         for(int i = 0; i< arr.length; i++){
             int num = arr[i];
             if(hp.containsKey(target-num)){
-                return new int[] {hp.get(target - num), i };
+                return new int[] {target - num, num}; //for returning the index -- new int[]{hp.getvalue(target- num, i)}
             }
             hp.put(num, i);
         }
